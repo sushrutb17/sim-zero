@@ -6,7 +6,9 @@ Sim Zero is "the session before the first simulator session": a bridge between c
 
 Built for the [Meta VR Start Developer Competition 2026](https://start-developer-competition-26.devpost.com/).
 
-**Try it:** open **https://vr-cockpit-trainer.vercel.app** in the Meta Quest Browser, sit down, and press **Start Sim Zero**. Hands only; no controllers needed.
+**Try it:** open **https://vr-cockpit-trainer.vercel.app** in the Meta Quest Browser, sit down, and press **Start Sim Zero**. Hands only; no controllers needed. Step-by-step guide (about ten minutes): **[HOW-TO-TRY.md](HOW-TO-TRY.md)**.
+
+**Demo video:** https://youtu.be/-5ztBYdWSr4
 
 > A rehearsal prototype, not certified training. The aircraft, airline, airports and every procedure are fictional and invented for this project. They are not real or approved procedures.
 
