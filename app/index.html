@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="data:," />
+    <title>Sim Zero</title>
+    <style>
+      /* Loading screen: colours follow src/xr/theme.ts (bg #04060A, text #F4E3C3, textDim #BDB198, accent #A08CFF). */
+      #loading {
+        position: fixed;
+        inset: 0;
+        z-index: 2147483000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.1rem;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        background: #04060a;
+        color: #f4e3c3;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        text-align: center;
+        pointer-events: none;
+        opacity: 1;
+        transition: opacity 0.2s ease-out;
+      }
+      #loading.done { opacity: 0; }
+      #loading h1 { margin: 0; font-size: clamp(1.75rem, 7vw, 3rem); font-weight: 600; letter-spacing: 0.02em; }
+      #loading .notice { margin: 0; max-width: 34rem; font-size: clamp(1rem, 3.6vw, 1.25rem); line-height: 1.5; color: #bdb198; }
+      #loading .bar { position: relative; width: min(18rem, 70vw); height: 0.25rem; overflow: hidden; border-radius: 0.125rem; background: #2a3344; }
+      #loading .bar::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 40%;
+        border-radius: 0.125rem;
+        background: #a08cff;
+        animation: loading-slide 1.2s ease-in-out infinite;
+      }
+      #loading .status { margin: 0; font-size: clamp(1rem, 3.6vw, 1.25rem); color: #f4e3c3; }
+      @keyframes loading-slide { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+      @media (prefers-reduced-motion: reduce) {
+        #loading { transition: none; }
+        #loading .bar::before { animation: none; width: 100%; opacity: 0.5; }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background: #04060a">
+    <div id="loading" role="status">
+      <h1>Sim Zero</h1>
+      <p class="notice">Generic fictional aircraft for scenario-management practice only. These are not real or approved procedures.</p>
+      <div class="bar" aria-hidden="true"></div>
+      <p class="status" id="loading-status">Loading…</p>
+    </div>
+    <script>
+      // Until the app removes #loading (src/app/loadingScreen.ts), a script failure replaces "Loading…": the app
+      // bundle failing to download (error on a <script>, seen only in the capture phase) or an uncaught script error.
+      // Other failed resources (audio, hand models) and stray promise rejections do not count; the app may still start.
+      (function () {
+        window.addEventListener('error', function (e) {
+          var t = e.target;
+          if (t !== window && !(t && t.tagName === 'SCRIPT')) return;
+          var el = document.getElementById('loading');
+          var s = document.getElementById('loading-status');
+          if (el && s && !el.classList.contains('done')) s.textContent = 'Could not start. Please reload the page.';
+        }, true);
+      })();
+    </script>
+    <div id="scene-container"></div>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>

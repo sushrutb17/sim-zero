@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------------------
+# Private reference material: never committed.
+# ---------------------------------------------------------------------------
+scripts/
+*.pdf
+
+# ---------------------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------------------
+.DS_Store
+*.log
+
+# ---------------------------------------------------------------------------
+# Build, dependencies, secrets, test output
+# ---------------------------------------------------------------------------
+node_modules/
+node_modules
+app/dist/
+dist/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+.vercel/
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Local voice generator (tools/voice/setup.sh): Python environment and ~350 MB model files
+tools/voice/.venv/
+tools/voice/models/

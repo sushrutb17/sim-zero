@@ -1,0 +1,1055 @@
+{
+  "atc-wx": {
+    "channel": "atc",
+    "contentSha256": "9f32d103b084ad98ccc6a6363dee7980bd0694d7f20eab4abbc9a14cf52824db",
+    "inputSha256": "7abc828eb396c4dcb0c53b396891d1efc0fb71845376419435a5a3faaddc8870",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "cab-lights": {
+    "channel": "cabin",
+    "contentSha256": "df46cd0c418b2a1295c4228666a9390ed68bc1ca6aa9b2f31f1deff0f0cee5ba",
+    "inputSha256": "9c95ba279a66ccec217bf683f57e45e58bd38e1a79fa23b4ea1ddfa014fec2d8",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "cc-atc-417": {
+    "channel": "atc",
+    "contentSha256": "083211c5871725606fe7247a2b998e47e3521077f0c0424dbae115e994ffde9c",
+    "inputSha256": "02d431060a17c5338cfbcca36672aaa47fefaf9ef4e2c1399373c11012370898",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-atc-for-417": {
+    "channel": "atc",
+    "contentSha256": "94bc63d80dcd90cd31c729d87393ba03a15efcb383ba33d012f4fd7dcd858193",
+    "inputSha256": "b2c44eba2f89519d49c6f3910efe4131ac84ddc8735e7f7d27f3f793a4def745",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-atc-negative": {
+    "channel": "atc",
+    "contentSha256": "a3c12d30846704d5c9955b7bab54b1deb600505c7a38403d1dcc933c78c32dc6",
+    "inputSha256": "d16baf73bb25d07de0e6dd69caf2803215b9b7627c33d6ff542063bd4bf2ee93",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-atc-real": {
+    "channel": "atc",
+    "contentSha256": "21ffdc41ed314779ca1d93cefdbde5d60ef26cab8d4d350895aa9278db1ff95a",
+    "inputSha256": "a67b1db1c75bd328b14c57f2ae79c131e4bb6e001cc1505b1a2259eab6622585",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-atc-stop": {
+    "channel": "atc",
+    "contentSha256": "b585b4dcaf1f826dfac626269117201255e5455cb1aa3207678720fd0832131d",
+    "inputSha256": "97c9506ed35a8e5393a0d379ccfe7f3af3af1d2106366b39d496e000ea2d4ba9",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-cabin-callback": {
+    "channel": "cabin",
+    "contentSha256": "d1a8ab8bb498b6490fc1bbc3a9394c740d730dda3f15e1b9daf7c49c7087e7c8",
+    "inputSha256": "a73d889cb023a10682b1c0ca7407c48c43b3fd319637d05afc8163912ccbb57a",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-cabin-galley": {
+    "channel": "cabin",
+    "contentSha256": "a90a0a4b7a8b069002399b8518db25b41dd50886a2e2755b1289fd93a44a1ab6",
+    "inputSha256": "a990013a4eed1c2acfebc21627d83a7762a09c77058de588da8a4aee81928d9f",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-cabin-ok": {
+    "channel": "cabin",
+    "contentSha256": "2ed541f83e086c8c8fd627ab96fbb3a7357f6bc8e0ef9778c8bc7f732b4370ef",
+    "inputSha256": "28378800fb10cd52bbe294db2885a2c71983af3f9079d845c6af77392c2db42f",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-cabin-report": {
+    "channel": "cabin",
+    "contentSha256": "9145e8f93a2a0d51f7b327a13a90a034745cd00316949469362b88dd02bfcf67",
+    "inputSha256": "d2bd529994133511d4d4378db3e6031de552c39c63e37220749090a82da1f994",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-crew-mode": {
+    "channel": "crew",
+    "contentSha256": "3a7eefb78529e0720698290374ce9385faa43945a66a6d64d12456ce469672c0",
+    "inputSha256": "7d2b01245f866ff9fb76f23a92dcc30b793115cba621f7dba362d6864e332a32",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-crew-positive": {
+    "channel": "crew",
+    "contentSha256": "f57187b330ce21a2c30097c922c360ee2faa33b9f054375cff6825ea514a55ce",
+    "inputSha256": "83159f61470b2a175175652a02c365eb3819c8d527c73a04cf27c9fe73786a4d",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-crew-transition": {
+    "channel": "crew",
+    "contentSha256": "9c53dcaa5baa6d1b896f340668affed2cfe16572d6eb100a3c19ca9de242f919",
+    "inputSha256": "bd0ddccb8a67377be17ee638616f062289ccca1900d84bd4bcc453c275a78527",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-dep-contact": {
+    "channel": "atc",
+    "contentSha256": "e5aa746daf425c0a158053c83455cd7ebdb4a23add93d5c2a2467413948ac7c4",
+    "inputSha256": "377ad99a2dd74b65c41285b17550983dc9b1d0f2fd9c421245e6cd1bf9e41b97",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-timeout-reminder": {
+    "channel": "atc",
+    "contentSha256": "e0c659779f87ab4e97f1d7600f04e789ef4092144051faee14c852bd1cd75525",
+    "inputSha256": "329cb707630c492e73b948052dbce02c8e18c52931725ec280e92b6163fff9d9",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-twr-amend": {
+    "channel": "atc",
+    "contentSha256": "cb51b00de4175f8ad8a88550c9c34bf5ca2b68c9ab28d9465605925028f3369c",
+    "inputSha256": "3d4518500eb224573aa53bf79ce84feb508512f640242caa335d038c1187c906",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-twr-amend-correct": {
+    "channel": "atc",
+    "contentSha256": "1d3897e00d9e3a7a26e7f0ec08478c0e6d55da7b922c01e2825ef75331a0cb05",
+    "inputSha256": "0ba95acff9295f24e8d657050d9e91a65ac484e78f5ef28d2fc6f2a532def849",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-twr-readback-ok": {
+    "channel": "atc",
+    "contentSha256": "d1a914b46a2ee04426a7b1425b2e0d23fb53403ecf0eb152b9bd28220f083d54",
+    "inputSha256": "7a0ecfa7c21a145779df3c8e281026614e2934cf36ce7b535dd5e993be0c12c5",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-twr-ready": {
+    "channel": "atc",
+    "contentSha256": "db031f631e76c9ef6b12a66ff36c85a3c6c7d5690553037f3b13128da8636c2f",
+    "inputSha256": "cd7327cf78218ab2dae5e72326fbbd25fcf51bd25d170491182d937f788cfd9f",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-twr-report": {
+    "channel": "atc",
+    "contentSha256": "69d30ff5d2ed0335b4e834cc3d26034fe0a2545716326a884ba2ea3fb8c0422c",
+    "inputSha256": "ca7ba77d22802b0b7839212a2ebcfd2b38377988a5297dd6a317745d506fd43f",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "cc-twr-takeoff": {
+    "channel": "atc",
+    "contentSha256": "b817a964d2651db7bf55915fc0e95e65bb25841adacd20c79975736f87f9fc10",
+    "inputSha256": "540f5ecc7218213a96800aca998c618b529d6326783fa949fd8aa0ea9582e196",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T14:42:41.725Z"
+  },
+  "ctr-ack-alt1": {
+    "channel": "atc",
+    "contentSha256": "dabf57fcde5b887e46e8f55c0f47fb1dfa55677d220766f835caffe54af57367",
+    "inputSha256": "ffb9aeb7226de8049e563b62f8f9efb2d840b73cec946a84674cad6886b69c17",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-ack-alt1--a2": {
+    "channel": "atc",
+    "contentSha256": "bd9018b2dceeb416269fa0df357c82392844f7476270a4481d9c6de4b9241cc9",
+    "inputSha256": "a954646ae429a7385adf29eb870c0c537ce657eae94b06ad5d7531068637562d",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt1--n1": {
+    "channel": "atc",
+    "contentSha256": "37ec11b58163358c86d7ae369c3e8c2cbda2c049aaa832709a8964a4306dc3d7",
+    "inputSha256": "9d41ca17e56cef468817dccc3c15f0bf482e67aaae1c57771a0599d99a4f5968",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt1--n1-a2": {
+    "channel": "atc",
+    "contentSha256": "bfe31b281e4688d0ef7d7950b855f115f979fb387f9368b5cd50a1330a17f3ab",
+    "inputSha256": "9b4363ba21fe30a094335e2c601b34daff9cf57d8070145f86c482006ad576a8",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt1--n2": {
+    "channel": "atc",
+    "contentSha256": "9db98df209224981ef180ee6b23861c1873de2bbe90186fd445b71d02d206f18",
+    "inputSha256": "ee2d0bf8dd2acdfe9f42b376cbcd837bed7057b58a3504fabf9d36e179490e0f",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt1--n2-a2": {
+    "channel": "atc",
+    "contentSha256": "17969fee0481e28f7d97f61daca1dc420322216a0896339bcb7bd9a9d02f2ff4",
+    "inputSha256": "098b80e918a331a1532e1855e16f250d98aa0f9a7d178afa55f017fbf69fda3c",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt2": {
+    "channel": "atc",
+    "contentSha256": "1540b21d5a4bf4068fed98fc5e567f7a1fa2f9dd9cd75f80f905896f56b300a3",
+    "inputSha256": "a136a98e0bb868ce9655a3294ebe4ce0a111bb1d34879153559bd5f85dea1f57",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-ack-alt2--a2": {
+    "channel": "atc",
+    "contentSha256": "c4d0d4cdd5f87dd86d8d8c425e5008d7b01c6794dc5e1fc89ccf382703b02fec",
+    "inputSha256": "9d6783973958501e515681e4850bc720403ecda173ebcbf0c7b6894e37e7ce64",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt2--n1": {
+    "channel": "atc",
+    "contentSha256": "76809732f9819af29b87f2eca22c584ef7b94929393e6aee273de478bc355de4",
+    "inputSha256": "91d0eca61e1b3fc02ecfd118f67c23eeb509590ad5e1d952f5b2ac52d480f4a5",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt2--n1-a2": {
+    "channel": "atc",
+    "contentSha256": "a13ded7f2dd4b7151f65b699263385f1ee6d1e25b783f8e7691f2af34891cf08",
+    "inputSha256": "b825a4bfee1e9accf543afb04b16e9e0d45178ebc6ccee37518eb128fb85af5d",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt2--n2": {
+    "channel": "atc",
+    "contentSha256": "b753453ee024858b582422b0d547e32eb3cc207f5d6f5d527521908895b32d8a",
+    "inputSha256": "e87064fe21e027f0017199e6c6858145f33fb1f5bdaf3241d4f2c93ad3b7ed31",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-alt2--n2-a2": {
+    "channel": "atc",
+    "contentSha256": "9100372e77a03e6e1b4decacdc125d7f213a9b2ab300c6aee264c364c3a77544",
+    "inputSha256": "4be3308312f254ff89bf5f14d48fdce66c0a02609bb890f40a118ac231272304",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-continue": {
+    "channel": "atc",
+    "contentSha256": "199f9fc62a92b3607562755697132855af46e2df8a44803d36e7c76c5c5594a8",
+    "inputSha256": "2934022497da0cfd2957ecea3626010879d4b20a31fb80c9f2cbe046e797cf31",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-ack-report": {
+    "channel": "atc",
+    "contentSha256": "fb231ba37a1551c192d6347cde223c46cc6104ff18d0154b22ba41a761625452",
+    "inputSha256": "3105fcd15d8070d6bd71f8efdc19dfd095c230d73da1c58f68def4d5133568ec",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-ack-report--n1": {
+    "channel": "atc",
+    "contentSha256": "3c6f4d80e0a86b3c79a0194abedd1a7bf175674e2d2b9af40a92e580e6a287c7",
+    "inputSha256": "044cf036d211698af11560e58f732bab91708577f36f6d11f4f035bb9a7d43d8",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-report--n2": {
+    "channel": "atc",
+    "contentSha256": "be662c6fc49efa937a0e435f467898d439eded8d67ba05d5c23f0bebe51c6580",
+    "inputSha256": "4867a20bac94ee6c742b312c7711b779120b1b7c64ffb9a538083dd0278e5c89",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-return": {
+    "channel": "atc",
+    "contentSha256": "f7b641cc54c05e04e6a5b5a1db574d84501920fe55343d541f1114c4b01ce2cd",
+    "inputSha256": "38b387511e2f847b00d9082abf55ae87f787939d2b96d9554a9a6ad6f63b9083",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-ack-return--n1": {
+    "channel": "atc",
+    "contentSha256": "b6786095e9a91ac0c762ebb810a2c2a99f9417e12835b25bae8065f97608bf46",
+    "inputSha256": "14182740c3033a85d75e8318e4053487bcac275a6548647bf9e38d8647967cfc",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-ack-return--n2": {
+    "channel": "atc",
+    "contentSha256": "d830eeecdf64e5a9a08ad614eaa2c420d4a2d5018aec6adbea8f1a0589128d69",
+    "inputSha256": "f632eb81e5bf58d8513a346cce0276e7e94d4c8db2d64aefe570542194e6bad6",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-checkin": {
+    "channel": "atc",
+    "contentSha256": "9bb1b51fba12303ad3cb28337446ab2b302d8ac1dfb50f1ce67d8f8fe97c3ff8",
+    "inputSha256": "a988c21f80a89d00031c56ba9feaa511ab31d17bc414a6bad9c443845317e54f",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-checkin--n1": {
+    "channel": "atc",
+    "contentSha256": "843140f024ad649a85af08f82c02b8ae368d936e578e011cc600085bd2b30dbf",
+    "inputSha256": "47ddc19884f4bf435a9f57d8fda91cbab1654d50f439f07d87758d0bbfa90617",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-checkin--n2": {
+    "channel": "atc",
+    "contentSha256": "cd07b0de8ea1f88973549a8797de7949c59e59fab4034cc4ade7435aa8629643",
+    "inputSha256": "823b8198df811ac08eab38eb400f9ab71c1057bdd44b803b5c9fab49853270b3",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "ctr-climb": {
+    "channel": "atc",
+    "contentSha256": "156b97d58132aa99e2acfd9964ecf875e2de1b7eaea44c0b2c0c0ca800940529",
+    "inputSha256": "389d313775d0d5edeadc062902cf7802c8d7d258372526f3439a7c8028e2c931",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-intentions": {
+    "channel": "atc",
+    "contentSha256": "b1b3ea85f43e6bdb36abc781e9466d8d87f7f97ea485d5957241baa7ff254a32",
+    "inputSha256": "ee58c00183b3373a15f90e1cefb9ab41170acc398d70f550f5cf2b5263057af8",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-query": {
+    "channel": "atc",
+    "contentSha256": "800da64c474d7f3284bddde98ad90593c471d3a4918922167c4020ebfeed5f74",
+    "inputSha256": "4d4d0ae86dcb3828fae773f283c5a004cb719c6f497c039cb6493b9b45d47268",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "ctr-say-intentions": {
+    "channel": "atc",
+    "contentSha256": "8460144f73085f7f58c42f4718d4c87e9ee8844b0e547ff20c65cd072452c3ae",
+    "inputSha256": "f9b0de123ed59284c6a1ea2951a7c83343d3a7d1d1dac7e3224ce6f6fb26f7fa",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dep-climb": {
+    "channel": "atc",
+    "contentSha256": "c10135407cb2f7670dc32db213ae2fd6f8da100f2564b2a6d0b639d8bc528564",
+    "inputSha256": "fb0dd8830ef2029161b24cef8e15ad038013648ebc45b20b64888c967b847ac5",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dep-climb--n1": {
+    "channel": "atc",
+    "contentSha256": "13260eaebbabd2d3ac37bd325c6eb2f464529eb81302a05619cd766983c3cfb6",
+    "inputSha256": "2bc04d28a631fb1a74c57f4e1d5267512dca045e5cc0626bcd0a55fccbe2f600",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dep-climb--n2": {
+    "channel": "atc",
+    "contentSha256": "afc233947129eefa804cc2e8dd87410b50fda0bb7b8b388d798878f3d339b3a1",
+    "inputSha256": "9599d53cc4333428d22b0ca62d0d7509d2c651667712e1236a92c1e804a55cc1",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dep-dev-left": {
+    "channel": "atc",
+    "contentSha256": "dd828198fc0fce94879083f9cd319de50aea1f3ec9dc60f0603ff1607a9d6b64",
+    "inputSha256": "929eff037dcae79d2c036d2192b9fc9ed65e349c60f2534b0166489de8ff041e",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dep-dev-left--n1": {
+    "channel": "atc",
+    "contentSha256": "82e6c59c49f9ed13ed73170a2a054473725612e01fd051a7a94b1a282ad7ec5c",
+    "inputSha256": "14a8289fd1a895e3da7bebba09aeb5181be438a4fada5c81683bcd600262a536",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dep-dev-left--n2": {
+    "channel": "atc",
+    "contentSha256": "0b684ea65863aa76b5c045a746cdefd4989c151cd654bb857fbad5867fe7c8a3",
+    "inputSha256": "b01e9db3643128c51dc1157c89f1011ee6641742df6614b272465760d3866a46",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dep-dev-right": {
+    "channel": "atc",
+    "contentSha256": "56a4ff0648455762099f09a5b32f64c9b6b150068c44c26572400c90fa46bcce",
+    "inputSha256": "c1fb8a84fa8f729b848f7393886fd2a9f53b4d4e2c315a51f870f6d7881d34aa",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dep-dev-right--n1": {
+    "channel": "atc",
+    "contentSha256": "e2e17211b4b7b126cd07721a9874c5ce75443ec94368bf4b2fe9f794a143e08f",
+    "inputSha256": "510742890ea948ba2497f36701b848ebc8bcda22368a53e10869a86e4aa3a163",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dep-dev-right--n2": {
+    "channel": "atc",
+    "contentSha256": "3ec4995b350c25c65b7a558b13aba557c971657e8e9b9c83ee5a4f9ab139ac5c",
+    "inputSha256": "a9361150adebd3748cc0a7be38159e6b7c4d58684d0fdd6333036c5fd007c632",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dep-handoff": {
+    "channel": "atc",
+    "contentSha256": "fe3c749cc372fc4cdc340001e93ff273c3c7f2105477f20f7dd9079228b5bd31",
+    "inputSha256": "f8496a93932727d479997053ece628d8b40b782dff4178889c9fee7eb181b6ad",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-ack-alt1": {
+    "channel": "dispatch",
+    "contentSha256": "39c14142b2fb88ea0bda37f0215c687121077459f46a66a27b83bcf38b2bc9b5",
+    "inputSha256": "49f8d9e83a8cbf9a4f7d1ac1ca2ba3097a412f41712bc89e85ded5d4e2540024",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-ack-alt1--a2": {
+    "channel": "dispatch",
+    "contentSha256": "7f28bdfe78302e20a85379e10b15d5e423b59d87309c1dac313c68ca2b279051",
+    "inputSha256": "0cffee479b3daa5ccd08843774575587e27e5cf38fa50a9abb098c01870aaff9",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dsp-ack-alt2": {
+    "channel": "dispatch",
+    "contentSha256": "e88596d93918433fff49e86c7a63a95a4f18ab39f9d30ea56978f5e63a7ef0e5",
+    "inputSha256": "7f75964a5b229eb12ccbe218bf43f61b4250a8691933d91c80e8fc08aee74432",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-ack-alt2--a2": {
+    "channel": "dispatch",
+    "contentSha256": "60c3f55ea286a4d814515be6109acf51a4066eb520a38b09e9d86b7a9abd7729",
+    "inputSha256": "d956f3775e5dcbd0ac50dd07cbaeb78339d259de530d1d4faa61deabdf5c3f2c",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dsp-ack-continue": {
+    "channel": "dispatch",
+    "contentSha256": "7fbf0990cf5392c74e98177df7d153998e44bb0b07c5d8cc601869a97abfa994",
+    "inputSha256": "0f36c76fc36a55caa0c1c1b249cd731532089a0fc2c895d524e25efec3e2f207",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-ack-return": {
+    "channel": "dispatch",
+    "contentSha256": "16c4bc0503eea509979983fa8785e852b9bc2b16616b25454ede408be3dbf809",
+    "inputSha256": "d118610dea050c96f89e9213b4b6225f160d18b00f7ecf49a96cf3b80a9f03b7",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-concern": {
+    "channel": "dispatch",
+    "contentSha256": "d32c94cd72754796d78dba90b5a891fa5091c698a0ad8a35067e1fed05f10603",
+    "inputSha256": "52ae1e98c93aed4deecbb0649881456ca36175a4742b547fdf63b8f50dfa8ea4",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-fault": {
+    "channel": "dispatch",
+    "contentSha256": "7d1bf3a21d573acc663ae62adedc185ea04175ace9ff8d9ea0e85f6449b3a836",
+    "inputSha256": "59d5fab7ed76351bbb63418507e02941beed6ec8047ac5cecf432dd62bee3e95",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "dsp-fault--g2": {
+    "channel": "dispatch",
+    "contentSha256": "66ba1a93e0ee981e2c32b65a42a3d61c8e86ff6677f0cd3b069d6705e7e60263",
+    "inputSha256": "9911f2f80fdfcecc0fcc8c3e3e1135d4b87e4e33386bdceb049412d34862af21",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "dsp-reoffer": {
+    "channel": "dispatch",
+    "contentSha256": "015bde20574b1114a064c15a8c54a509bf338dc4f8c52c4df7c7a02e03a758df",
+    "inputSha256": "d685a6222369715ffacc4349a9dde85d14a873fb7c5f73ff87063ecc951031fe",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es1-checklist": {
+    "channel": "crew",
+    "contentSha256": "8a4389ee70fa483c8d0bd67429391d3d92c87d9c6857b5ffc1c8cfc152b78025",
+    "inputSha256": "d953a99dad976a579a8bf9c829984ff97e70269278fe98fed22684e2ac80ecd4",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es2-airborne": {
+    "channel": "crew",
+    "contentSha256": "f57187b330ce21a2c30097c922c360ee2faa33b9f054375cff6825ea514a55ce",
+    "inputSha256": "83159f61470b2a175175652a02c365eb3819c8d527c73a04cf27c9fe73786a4d",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es2-ap": {
+    "channel": "crew",
+    "contentSha256": "1c57b0345ced9040bd34bd06372684c05d09968351611edbb33e66f132317eb4",
+    "inputSha256": "da39a1ddb076d02f6ae98cb8ca05b6f65a18d3c7ab7840c5cea15cd3045daec3",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es2-clear": {
+    "channel": "crew",
+    "contentSha256": "8529c73c4c46e0f9fe63214d318b987f45cd856df1cb23ff1534940854b2da4e",
+    "inputSha256": "709c0b7f75952caf0f0620cb0a9cb67f0a54c316422a2657d1034210cdb382fd",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es3-bustie": {
+    "channel": "crew",
+    "contentSha256": "7f3d5af7f78d4ecd7da9550b9e16547aeb3e3e5a61eaec7d04d9ed6bbeca57b7",
+    "inputSha256": "20cc57696f0b32d60a1d4544d43126c8d96c4bef91e21c1c5e72eb324c9a30e6",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es3-bustie--g2": {
+    "channel": "crew",
+    "contentSha256": "472cd113b840464744add0afede8a5966c1dda8bb4cc139da5438cc094b71677",
+    "inputSha256": "c7168babd8ae8c9c0b6ba71814a0368d615cf0619706399452bc6ea48399a635",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "fo-es3-checklist": {
+    "channel": "crew",
+    "contentSha256": "5c8810f24812d85759538d7c383e60acd1f56a266b5fff53bd8c70a7f3770348",
+    "inputSha256": "ede5ccb91511e75cbb9eb9b223d7720265c9115067efe8c0eccda55becca1341",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es3-checklist--g2": {
+    "channel": "crew",
+    "contentSha256": "a42234fce2df75330a77a511aa9443f8bd8e0e721d449f6997512f348859e58a",
+    "inputSha256": "3811f7e5f5ae7bec5ecef3ce69e73093f84e438292cb29f8d156cca70a48c704",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "fo-es3-complete": {
+    "channel": "crew",
+    "contentSha256": "8408e8213c6cca574e4e22ac66074f246d1f6db1e08bf6ad3091cc6a04669e57",
+    "inputSha256": "84925fdc024cec230e4abe638954e695586c2572b6382f5736e83fec69894fdb",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es3-complete--g2": {
+    "channel": "crew",
+    "contentSha256": "a050790da40d1272db7bf66e3edef21755b84798e961470c56dd646bb42d349e",
+    "inputSha256": "b03e2103d3cee3d1734805af0efd0b60aaa0132ac302823acc5db1c245836f55",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "fo-es3-fault": {
+    "channel": "crew",
+    "contentSha256": "0cc0e76db3749cb3d5adf19be1939aa7bd0868384a826e6dd07fc5fda69291b1",
+    "inputSha256": "0e76931191e454acea3c2b9da02e41400b3c38e297fa1a02387a87a11ab8a22b",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es3-fault--g2": {
+    "channel": "crew",
+    "contentSha256": "3fac4e0171ded19b85b2cdd715c7a4d746b5602caa2b55e31ce69db1099f3ab7",
+    "inputSha256": "c8edefe1650a65571222c23f0264d85c92ec2732487a6f4424ddaf08979d800f",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "fo-es3-gen1-off": {
+    "channel": "crew",
+    "contentSha256": "655043903927510ed5ce8a3712a4eb0721a32e7781ce7fcf94f1adc35de9d5e4",
+    "inputSha256": "e97674c7de7c93b26f9a7a4e2fc79d6188d05aa344f91a43543a7fae65bb4543",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es3-gen1-off--g2": {
+    "channel": "crew",
+    "contentSha256": "284d33418f0ed9fe1d0bf30e36df53a0b7461f85ec3fddfa72d0c438661c3192",
+    "inputSha256": "66f5b07d2b60421d43f847bf4533f526a55325da555100cd5ad196d095c1d638",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "fo-es4-cabin": {
+    "channel": "crew",
+    "contentSha256": "be72fb0e4fb87dae7141bd76e9d09481fc10a3e180a728d43ae051e586c51184",
+    "inputSha256": "c3e8de54b53d9dab13e4d535e5d6cc60fbb15ff4dbde38f81ffd7c78a08c39fe",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "fo-es4-route": {
+    "channel": "crew",
+    "contentSha256": "3ffb921acf05c32bcdff7a99ad54437cf47f7704efe1a789b8486d6ff66d5aa5",
+    "inputSha256": "88a7ac96b29ecce0442ac4704a461d79103e1ea5520aa7400b2f1d8955e2c78d",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "pa-cabin": {
+    "channel": "cabin",
+    "contentSha256": "86ab1821396605ef6c34cd672c839fd8d38b3df9f35f4551b32b0cc4f64691a5",
+    "inputSha256": "db386ae1c9da8900698e0f2e72a4d2e3286646d08aca9d53ff2feff176678526",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "tc-atc-clear-large": {
+    "channel": "atc",
+    "contentSha256": "337bc2b2c0c50b2be9c5de25ce31114778e308add24ad855d4a793c837438173",
+    "inputSha256": "595ac9a4d206816979c0ae1481b8e62e2e77624876b5480ee8e5ca539b948c09",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-atc-clear-near": {
+    "channel": "atc",
+    "contentSha256": "3cd3c39537833ae6b87ea98a76fb065d4ffc9783a6eef9c8d710d07e6f3da472",
+    "inputSha256": "912ef9ba871d67e8c368707b2757c4d638168ebbb66c48ce7e14decb5b359702",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-atc-continue-ack": {
+    "channel": "atc",
+    "contentSha256": "c3cedbef5469bbcce8838f4479e9e5e3f610807b4a3f783de04b3618fc12c18e",
+    "inputSha256": "6e0006157bf94d1473c6702c6037c6b180197b1447feca371eac671521cf95ee",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-attending-clarify": {
+    "channel": "cabin",
+    "contentSha256": "487946fd536be5f1a871feec0261e44f1cd373a7b4053f2f786a45e787919c68",
+    "inputSha256": "2ec9ca0e10cd014bb09130f35b3a437a22ecb93b1cc901560ebd3ee3ac251c7a",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-attending-report": {
+    "channel": "cabin",
+    "contentSha256": "ae6f162347ef5cb9015085073032241446a75e1a4e2225604c0b7c839f3360c6",
+    "inputSha256": "9531391f03b0955df219858efafd34f43e396650bb40b749d62c6facc583bd57",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-cabin-brief": {
+    "channel": "cabin",
+    "contentSha256": "cbc1b467787f6dcc57937ac99df6939e1cfc00f0f7260fb26a53c7080fd780b1",
+    "inputSha256": "0f96b4617bbd4b6c58f97d216a4c0127fbe843d059fde82e54d09c7c94c73dc2",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-cabin-collapse": {
+    "channel": "cabin",
+    "contentSha256": "ec924a71ab7956148d549f4d0b569509e6e38770eb4350c4c53c03fb928f126e",
+    "inputSha256": "2a6e9629fb1893938370f0c4bdf7a83783ee8578119d6442ab0c8be3214bfd76",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-cabin-recheck": {
+    "channel": "cabin",
+    "contentSha256": "6b44476bcd89400b4a8362b3982fd8bcf192a6d727a85f0919bf816e7b936556",
+    "inputSha256": "880221b809f6d3343c51139e50f8cd64525e50b2536de82071ee64b4353501aa",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-center-contact": {
+    "channel": "atc",
+    "contentSha256": "066d1522bc6411b272e74ba987d09d5c8ff309c6f42a667b62e579a3576119a2",
+    "inputSha256": "ac9259ec808f6b2e15b0f49983a3cdbab5fd7c4391c11bebeba2ed2c51765e4e",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-condition-clarify": {
+    "channel": "cabin",
+    "contentSha256": "d38b773dec5d9bdd3ba879843b2e2014e0779aecad44680c10b53833bb438620",
+    "inputSha256": "6486a94f6dc7ae739b2d43ba5abc49f3bc99fc88dff0d0978033ad91bc6b4bf8",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-condition-report": {
+    "channel": "cabin",
+    "contentSha256": "3e80ee7e70695ab5d148ecfaf18630366b0ee6c535fbb933771b4057a9078867",
+    "inputSha256": "6cd72ddf132a45299dd9518a380b076bc6f7cd40ec2a5b5886bdb1bbf77c0bb0",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-continue-concern": {
+    "channel": "dispatch",
+    "contentSha256": "164d78e938687fbd62d3be6219111c82ca3af3954b1c05b6fc5a9f8db5706dc7",
+    "inputSha256": "f70333ec1f3c86faf864d40d2b0ea54a988b682babf1d2ea74964fc31d7c2a19",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-crew-cruise": {
+    "channel": "crew",
+    "contentSha256": "49dacf011437b827afd701ad39b363c389c1162a55ab4e3ac0f9fd4f1d43bdcb",
+    "inputSha256": "22e8e7420b190cbb9efc98aad8fa6f61af4cde5aee83b409ddbdf5f7cea166a2",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-crew-route": {
+    "channel": "crew",
+    "contentSha256": "da06e2ba538fb513fecbb7b7ee903c48f2b6bf3f759ec2ce21dd07b76932fabe",
+    "inputSha256": "631dd8e8350bdf3006c7fa82b49644e88360a58f2f6f13bddc514639608edc27",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-crew-traffic": {
+    "channel": "crew",
+    "contentSha256": "21dc02c229e859fb9b8ebabbbf9bc9a011427b1d5616d6dc0f3d813ba349737d",
+    "inputSha256": "ff34b9a1ace4fec4db81aa9a9909572050f1a84d8fb9939365a860e16fa1f85b",
+    "model": "kokoro-v1.0",
+    "voice": "am_puck",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-dispatch-ack": {
+    "channel": "dispatch",
+    "contentSha256": "2d1256ccad73f5add4b8118fa46c90434b881f2d252611bd5dc5afdc332882d1",
+    "inputSha256": "fbe0f34fe754f3b8e776335fe84bc23eb4adcb2d8e3e2007f987ecb3e77a1461",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-dispatch-clarify-large": {
+    "channel": "dispatch",
+    "contentSha256": "4d59f8e657962766d7450630179b43acf560b3f53a49ed6f991d9e6f8dde8e2f",
+    "inputSha256": "1cb47f1b264f5f6bd1748fe99c409418262ecb75609a67fc718c1d39f985f448",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-dispatch-clarify-near": {
+    "channel": "dispatch",
+    "contentSha256": "41523d5d19525776b1bf5967f2e46034b96f998c239b06c10785480f5588d862",
+    "inputSha256": "5389ab4da49ef400c28a30db8f0aeb7b54c591cb3d574c2903fce3e1fd1be9da",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-dispatch-connections": {
+    "channel": "dispatch",
+    "contentSha256": "7d21627e601a5550d2a569a524cf934dde6b58813b55b701a8b7fe469fda9b6b",
+    "inputSha256": "46940f1a4a0adc6d167a13aee10fa91cc0f7f994bd7277dd877431fcbb5e0bda",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-dispatch-large": {
+    "channel": "dispatch",
+    "contentSha256": "d01b03e9d5ecb72cd52e4e23f4144eea96dd2c791912b007f083743b66af2da2",
+    "inputSha256": "a69d07da721d113ef148a0718effcea9ade7ca72c6166ca9c674e620e6680463",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-dispatch-near": {
+    "channel": "dispatch",
+    "contentSha256": "1e24bfdaf52ce9ff13d782ba620d780798049f4286f181424796aeb5a58e6acb",
+    "inputSha256": "b272ba49b0cb96a461825c3d33904ca2f4e576dcea83f5977ece0ec77fc319ab",
+    "model": "kokoro-v1.0",
+    "voice": "bf_emma",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-doctor-assessment": {
+    "channel": "cabin",
+    "contentSha256": "ac5ffe3d92f9d5b365d3d3a15a07d8357ecf84a2452b13bac135a81f22e81d0d",
+    "inputSha256": "e02558b2946db39755ed6f519721980d77be5634fe6da1efafb0c8ee178c4f7c",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-doctor-clarify": {
+    "channel": "cabin",
+    "contentSha256": "89400fb9ceb3db84c095281652292bc4d5a32ffbd533c1672a46a6d274ceed2e",
+    "inputSha256": "f26dac06fd259079779d36623d40b4e89a2fcaac6451899372baff6c7305abfd",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-doctor-found": {
+    "channel": "cabin",
+    "contentSha256": "e7b7b31e5ae9a7b0c904a60608b6896630f28dcc0a6ad3e6ff58d0a30498f7a4",
+    "inputSha256": "56aa547823c1fda3685b26862f497750864779e612cfd505ce4df853e3da8597",
+    "model": "kokoro-v1.0",
+    "voice": "af_heart",
+    "speed": 1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-frequency": {
+    "channel": "atc",
+    "contentSha256": "8222a4f41308218c95a8e68ba8c48a1525332f7f42db283c3e0b76f3adc28fcf",
+    "inputSha256": "b022502175a1661ecce7dd12f9f2869aeb2c2b6adaa9ca525e7d45a8f112b496",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-intentions": {
+    "channel": "atc",
+    "contentSha256": "c4df1becd12b0f077fe822c7a63b5218162c2602daa907c7ef0b5fa8aedd77f4",
+    "inputSha256": "00a6c4f897cb59925882ee1e047be6ba4376331996ee7bbdf50d1ecfb068bb73",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-timeout-reminder": {
+    "channel": "atc",
+    "contentSha256": "907567689aa0526085a086f165ac9bce2a8cf8b0db4a49d16cd5a379ef8664d7",
+    "inputSha256": "021a16d8dff94a8de2bfd81e923d39ac0d5d06b1cc4efbaeb16712403759d20d",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "tc-traffic": {
+    "channel": "atc",
+    "contentSha256": "1d4e332aad450cb3991a6d00a94a38533db252b2624ca3ba3195e1989c720601",
+    "inputSha256": "b45e091323ea1c9279f6c8e5b9183ebec970a365267c6c6a6e20faaae756b6d7",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "twr-hold": {
+    "channel": "atc",
+    "contentSha256": "2c3bc66a5bfa045ca3a96b6bcc29798b208d4566fb5f6c736004f2b0031ebb27",
+    "inputSha256": "04b9ee5fc8bd6b30354780603e46652935d313972f3a1d29f2d902c72cf39f8f",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  },
+  "twr-hold--n1": {
+    "channel": "atc",
+    "contentSha256": "e1f3c88e82c0bb31039dbd775f456ac544d4e384a742ef21292dddf1bc082b2f",
+    "inputSha256": "c9fd65e3626595773c024438176d19924bef1a695302d3abf9dc63a81200305d",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "twr-hold--n2": {
+    "channel": "atc",
+    "contentSha256": "bdfd749ea4f8e3cba0db488050036970980161e4bca39ae26ffb9eef7d848a3c",
+    "inputSha256": "546d3a777e0e84da510590f1eeb60f0f66b4e6e0195735219716317b2ca42876",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-17T03:11:08.694Z"
+  },
+  "twr-takeoff": {
+    "channel": "atc",
+    "contentSha256": "2739bf4cdf94de36e90d3c8b140dcf876ceaeff3f88614e918bfb56362e71f96",
+    "inputSha256": "4a6c1f71ead3c0a4cc7e76ca178134ffedab87f4be56f4f9e64a3269233e00ed",
+    "model": "kokoro-v1.0",
+    "voice": "am_michael",
+    "speed": 1.1,
+    "generatedAt": "2026-11-14T18:56:13.257Z"
+  }
+}

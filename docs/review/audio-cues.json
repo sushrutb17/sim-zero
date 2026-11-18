@@ -1,0 +1,958 @@
+{
+  "scenarioIds": [
+    "single-source",
+    "time-critical",
+    "cross-check"
+  ],
+  "scenarioCount": 14,
+  "messageCount": 117,
+  "channels": {
+    "atc": 62,
+    "cabin": 16,
+    "dispatch": 17,
+    "ground": 0,
+    "crew": 22
+  },
+  "totalBytes": 5875935,
+  "ready": true,
+  "errors": [],
+  "status": "assets present; listening verification pending",
+  "messages": [
+    {
+      "id": "twr-hold",
+      "channel": "atc",
+      "text": "Orvessa 214, Tower, hold short runway 09. Information Kilo is now current. Expect departure in two minutes.",
+      "audio": "/audio/voice/twr-hold.mp3",
+      "contentSha256": "2c3bc66a5bfa045ca3a96b6bcc29798b208d4566fb5f6c736004f2b0031ebb27",
+      "configured": true
+    },
+    {
+      "id": "fo-es1-checklist",
+      "channel": "crew",
+      "text": "Before takeoff checklist complete.",
+      "audio": "/audio/voice/fo-es1-checklist.mp3",
+      "contentSha256": "8a4389ee70fa483c8d0bd67429391d3d92c87d9c6857b5ffc1c8cfc152b78025",
+      "configured": true
+    },
+    {
+      "id": "twr-takeoff",
+      "channel": "atc",
+      "text": "Orvessa 214, wind 110 at 14, gusting 22, runway 09, cleared for takeoff.",
+      "audio": "/audio/voice/twr-takeoff.mp3",
+      "contentSha256": "2739bf4cdf94de36e90d3c8b140dcf876ceaeff3f88614e918bfb56362e71f96",
+      "configured": true
+    },
+    {
+      "id": "dep-climb",
+      "channel": "atc",
+      "text": "Orvessa 214, Departure, radar contact. Climb and maintain 12,000 feet. Fly heading 090.",
+      "audio": "/audio/voice/dep-climb.mp3",
+      "contentSha256": "c10135407cb2f7670dc32db213ae2fd6f8da100f2564b2a6d0b639d8bc528564",
+      "configured": true
+    },
+    {
+      "id": "dep-dev-left",
+      "channel": "atc",
+      "text": "Orvessa 214, heading 060 approved. Advise clear of weather. Climb and maintain 12,000 feet.",
+      "audio": "/audio/voice/dep-dev-left.mp3",
+      "contentSha256": "dd828198fc0fce94879083f9cd319de50aea1f3ec9dc60f0603ff1607a9d6b64",
+      "configured": true
+    },
+    {
+      "id": "dep-dev-right",
+      "channel": "atc",
+      "text": "Orvessa 214, heading 120 approved. Advise clear of weather. Climb and maintain 12,000 feet.",
+      "audio": "/audio/voice/dep-dev-right.mp3",
+      "contentSha256": "56a4ff0648455762099f09a5b32f64c9b6b150068c44c26572400c90fa46bcce",
+      "configured": true
+    },
+    {
+      "id": "atc-wx",
+      "channel": "atc",
+      "text": "Orvessa 214, Departure. I show heavy weather 10 miles ahead on your heading. Deviation left or right approved. Say direction.",
+      "audio": "/audio/voice/atc-wx.mp3",
+      "contentSha256": "9f32d103b084ad98ccc6a6363dee7980bd0694d7f20eab4abbc9a14cf52824db",
+      "configured": true
+    },
+    {
+      "id": "fo-es2-airborne",
+      "channel": "crew",
+      "text": "Positive climb.",
+      "audio": "/audio/voice/fo-es2-airborne.mp3",
+      "contentSha256": "f57187b330ce21a2c30097c922c360ee2faa33b9f054375cff6825ea514a55ce",
+      "configured": true
+    },
+    {
+      "id": "fo-es2-ap",
+      "channel": "crew",
+      "text": "Autopilot engaged.",
+      "audio": "/audio/voice/fo-es2-ap.mp3",
+      "contentSha256": "1c57b0345ced9040bd34bd06372684c05d09968351611edbb33e66f132317eb4",
+      "configured": true
+    },
+    {
+      "id": "fo-es2-clear",
+      "channel": "crew",
+      "text": "We are clear of the weather.",
+      "audio": "/audio/voice/fo-es2-clear.mp3",
+      "contentSha256": "8529c73c4c46e0f9fe63214d318b987f45cd856df1cb23ff1534940854b2da4e",
+      "configured": true
+    },
+    {
+      "id": "dep-handoff",
+      "channel": "atc",
+      "text": "Orvessa 214, contact Center on 126.85. Good day.",
+      "audio": "/audio/voice/dep-handoff.mp3",
+      "contentSha256": "fe3c749cc372fc4cdc340001e93ff273c3c7f2105477f20f7dd9079228b5bd31",
+      "configured": true
+    },
+    {
+      "id": "ctr-checkin",
+      "channel": "atc",
+      "text": "Orvessa 214, Center, radar contact. Continue your deviation, climb and maintain 12,000 feet.",
+      "audio": "/audio/voice/ctr-checkin.mp3",
+      "contentSha256": "9bb1b51fba12303ad3cb28337446ab2b302d8ac1dfb50f1ce67d8f8fe97c3ff8",
+      "configured": true
+    },
+    {
+      "id": "cab-lights",
+      "channel": "cabin",
+      "text": "Captain, cabin. The lights in the forward cabin flickered and the galley ovens just went off. Is everything all right?",
+      "audio": "/audio/voice/cab-lights.mp3",
+      "contentSha256": "df46cd0c418b2a1295c4228666a9390ed68bc1ca6aa9b2f31f1deff0f0cee5ba",
+      "configured": true
+    },
+    {
+      "id": "ctr-query",
+      "channel": "atc",
+      "text": "Orvessa 214, Center. Flight level 240 is available now. Advise ready for higher.",
+      "audio": "/audio/voice/ctr-query.mp3",
+      "contentSha256": "800da64c474d7f3284bddde98ad90593c471d3a4918922167c4020ebfeed5f74",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-report",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Maintain 12,000 feet and advise intentions when able.",
+      "audio": "/audio/voice/ctr-ack-report.mp3",
+      "contentSha256": "fb231ba37a1551c192d6347cde223c46cc6104ff18d0154b22ba41a761625452",
+      "configured": true
+    },
+    {
+      "id": "ctr-climb",
+      "channel": "atc",
+      "text": "Orvessa 214, climb and maintain flight level 240.",
+      "audio": "/audio/voice/ctr-climb.mp3",
+      "contentSha256": "156b97d58132aa99e2acfd9964ecf875e2de1b7eaea44c0b2c0c0ca800940529",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-fault",
+      "channel": "crew",
+      "text": "Caution, GEN 1 FAULT.",
+      "audio": "/audio/voice/fo-es3-fault.mp3",
+      "contentSha256": "0cc0e76db3749cb3d5adf19be1939aa7bd0868384a826e6dd07fc5fda69291b1",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-checklist",
+      "channel": "crew",
+      "text": "GEN 1 FAULT checklist is open.",
+      "audio": "/audio/voice/fo-es3-checklist.mp3",
+      "contentSha256": "5c8810f24812d85759538d7c383e60acd1f56a266b5fff53bd8c70a7f3770348",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-gen1-off",
+      "channel": "crew",
+      "text": "GEN 1 is off.",
+      "audio": "/audio/voice/fo-es3-gen1-off.mp3",
+      "contentSha256": "655043903927510ed5ce8a3712a4eb0721a32e7781ce7fcf94f1adc35de9d5e4",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-bustie",
+      "channel": "crew",
+      "text": "Bus tie is on. GEN 2 is powering both buses.",
+      "audio": "/audio/voice/fo-es3-bustie.mp3",
+      "contentSha256": "7f3d5af7f78d4ecd7da9550b9e16547aeb3e3e5a61eaec7d04d9ed6bbeca57b7",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-complete",
+      "channel": "crew",
+      "text": "GEN 1 FAULT checklist complete.",
+      "audio": "/audio/voice/fo-es3-complete.mp3",
+      "contentSha256": "8408e8213c6cca574e4e22ac66074f246d1f6db1e08bf6ad3091cc6a04669e57",
+      "configured": true
+    },
+    {
+      "id": "dsp-fault",
+      "channel": "dispatch",
+      "text": "Orvessa 214, dispatch. We received your GEN 1 fault message. Options for each airport are on your kneeboard. Your decision, captain; we will support it.",
+      "audio": "/audio/voice/dsp-fault.mp3",
+      "contentSha256": "7d1bf3a21d573acc663ae62adedc185ea04175ace9ff8d9ea0e85f6449b3a836",
+      "configured": true
+    },
+    {
+      "id": "ctr-intentions",
+      "channel": "atc",
+      "text": "Orvessa 214, Center. You are 20 minutes from the oceanic boundary. Advise intentions.",
+      "audio": "/audio/voice/ctr-intentions.mp3",
+      "contentSha256": "b1b3ea85f43e6bdb36abc781e9466d8d87f7f97ea485d5957241baa7ff254a32",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-return",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Port Aldane, maintain 12,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-return.mp3",
+      "contentSha256": "f7b641cc54c05e04e6a5b5a1db574d84501920fe55343d541f1114c4b01ce2cd",
+      "configured": true
+    },
+    {
+      "id": "dsp-ack-return",
+      "channel": "dispatch",
+      "text": "Dispatch copies your return to Port Aldane. Maintenance will meet the aircraft. Recommend you brief the cabin.",
+      "audio": "/audio/voice/dsp-ack-return.mp3",
+      "contentSha256": "16c4bc0503eea509979983fa8785e852b9bc2b16616b25454ede408be3dbf809",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt1",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Kestry Field, maintain 12,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-alt1.mp3",
+      "contentSha256": "dabf57fcde5b887e46e8f55c0f47fb1dfa55677d220766f835caffe54af57367",
+      "configured": true
+    },
+    {
+      "id": "dsp-ack-alt1",
+      "channel": "dispatch",
+      "text": "Dispatch copies your diversion to Kestry Field. Ground handling is arranged. Recommend you brief the cabin.",
+      "audio": "/audio/voice/dsp-ack-alt1.mp3",
+      "contentSha256": "39c14142b2fb88ea0bda37f0215c687121077459f46a66a27b83bcf38b2bc9b5",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Isle Morrow, maintain 12,000 feet. Isle Morrow reports fog, visibility 800 meters.",
+      "audio": "/audio/voice/ctr-ack-alt2.mp3",
+      "contentSha256": "1540b21d5a4bf4068fed98fc5e567f7a1fa2f9dd9cd75f80f905896f56b300a3",
+      "configured": true
+    },
+    {
+      "id": "dsp-ack-alt2",
+      "channel": "dispatch",
+      "text": "Dispatch copies your diversion to Isle Morrow. Recommend you brief the cabin.",
+      "audio": "/audio/voice/dsp-ack-alt2.mp3",
+      "contentSha256": "e88596d93918433fff49e86c7a63a95a4f18ab39f9d30ea56978f5e63a7ef0e5",
+      "configured": true
+    },
+    {
+      "id": "dsp-concern",
+      "channel": "dispatch",
+      "text": "Captain, dispatch. Before you continue: you are down to one generator and the backup is deferred. The next 4.5 hours are over open water, far from any airport. Please confirm your intentions.",
+      "audio": "/audio/voice/dsp-concern.mp3",
+      "contentSha256": "d32c94cd72754796d78dba90b5a891fa5091c698a0ad8a35067e1fed05f10603",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-continue",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Proceed on course to Vantreth. Report at the oceanic boundary.",
+      "audio": "/audio/voice/ctr-ack-continue.mp3",
+      "contentSha256": "199f9fc62a92b3607562755697132855af46e2df8a44803d36e7c76c5c5594a8",
+      "configured": true
+    },
+    {
+      "id": "dsp-ack-continue",
+      "channel": "dispatch",
+      "text": "Dispatch copies: continuing to Vantreth. Recommend you brief the cabin.",
+      "audio": "/audio/voice/dsp-ack-continue.mp3",
+      "contentSha256": "7fbf0990cf5392c74e98177df7d153998e44bb0b07c5d8cc601869a97abfa994",
+      "configured": true
+    },
+    {
+      "id": "dsp-reoffer",
+      "channel": "dispatch",
+      "text": "Copy, captain. Tell us your new plan and we will pass it to Center.",
+      "audio": "/audio/voice/dsp-reoffer.mp3",
+      "contentSha256": "015bde20574b1114a064c15a8c54a509bf338dc4f8c52c4df7c7a02e03a758df",
+      "configured": true
+    },
+    {
+      "id": "pa-cabin",
+      "channel": "cabin",
+      "text": "Cabin crew standing by. The PA is live: choose your announcement.",
+      "audio": "/audio/voice/pa-cabin.mp3",
+      "contentSha256": "86ab1821396605ef6c34cd672c839fd8d38b3df9f35f4551b32b0cc4f64691a5",
+      "configured": true
+    },
+    {
+      "id": "fo-es4-route",
+      "channel": "crew",
+      "text": "New destination is set.",
+      "audio": "/audio/voice/fo-es4-route.mp3",
+      "contentSha256": "3ffb921acf05c32bcdff7a99ad54437cf47f7704efe1a789b8486d6ff66d5aa5",
+      "configured": true
+    },
+    {
+      "id": "fo-es4-cabin",
+      "channel": "crew",
+      "text": "The cabin has been briefed.",
+      "audio": "/audio/voice/fo-es4-cabin.mp3",
+      "contentSha256": "be72fb0e4fb87dae7141bd76e9d09481fc10a3e180a728d43ae051e586c51184",
+      "configured": true
+    },
+    {
+      "id": "ctr-say-intentions",
+      "channel": "atc",
+      "text": "Orvessa 214, Center. Oceanic boundary in 10 minutes. Confirm your intentions.",
+      "audio": "/audio/voice/ctr-say-intentions.mp3",
+      "contentSha256": "8460144f73085f7f58c42f4718d4c87e9ee8844b0e547ff20c65cd072452c3ae",
+      "configured": true
+    },
+    {
+      "id": "twr-hold--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, Tower, hold short runway 09. Information Lima is now current. Expect departure in two minutes.",
+      "audio": "/audio/voice/twr-hold--n1.mp3",
+      "contentSha256": "e1f3c88e82c0bb31039dbd775f456ac544d4e384a742ef21292dddf1bc082b2f",
+      "configured": true
+    },
+    {
+      "id": "dep-climb--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, Departure, radar contact. Climb and maintain 13,000 feet. Fly heading 090.",
+      "audio": "/audio/voice/dep-climb--n1.mp3",
+      "contentSha256": "13260eaebbabd2d3ac37bd325c6eb2f464529eb81302a05619cd766983c3cfb6",
+      "configured": true
+    },
+    {
+      "id": "dep-dev-left--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, heading 060 approved. Advise clear of weather. Climb and maintain 13,000 feet.",
+      "audio": "/audio/voice/dep-dev-left--n1.mp3",
+      "contentSha256": "82e6c59c49f9ed13ed73170a2a054473725612e01fd051a7a94b1a282ad7ec5c",
+      "configured": true
+    },
+    {
+      "id": "dep-dev-right--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, heading 120 approved. Advise clear of weather. Climb and maintain 13,000 feet.",
+      "audio": "/audio/voice/dep-dev-right--n1.mp3",
+      "contentSha256": "e2e17211b4b7b126cd07721a9874c5ce75443ec94368bf4b2fe9f794a143e08f",
+      "configured": true
+    },
+    {
+      "id": "ctr-checkin--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, Center, radar contact. Continue your deviation, climb and maintain 13,000 feet.",
+      "audio": "/audio/voice/ctr-checkin--n1.mp3",
+      "contentSha256": "843140f024ad649a85af08f82c02b8ae368d936e578e011cc600085bd2b30dbf",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-report--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Maintain 13,000 feet and advise intentions when able.",
+      "audio": "/audio/voice/ctr-ack-report--n1.mp3",
+      "contentSha256": "3c6f4d80e0a86b3c79a0194abedd1a7bf175674e2d2b9af40a92e580e6a287c7",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-return--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Port Aldane, maintain 13,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-return--n1.mp3",
+      "contentSha256": "b6786095e9a91ac0c762ebb810a2c2a99f9417e12835b25bae8065f97608bf46",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt1--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Kestry Field, maintain 13,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-alt1--n1.mp3",
+      "contentSha256": "37ec11b58163358c86d7ae369c3e8c2cbda2c049aaa832709a8964a4306dc3d7",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt2--n1",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Isle Morrow, maintain 13,000 feet. Isle Morrow reports fog, visibility 800 meters.",
+      "audio": "/audio/voice/ctr-ack-alt2--n1.mp3",
+      "contentSha256": "76809732f9819af29b87f2eca22c584ef7b94929393e6aee273de478bc355de4",
+      "configured": true
+    },
+    {
+      "id": "twr-hold--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, Tower, hold short runway 09. Information Mike is now current. Expect departure in two minutes.",
+      "audio": "/audio/voice/twr-hold--n2.mp3",
+      "contentSha256": "bdfd749ea4f8e3cba0db488050036970980161e4bca39ae26ffb9eef7d848a3c",
+      "configured": true
+    },
+    {
+      "id": "dep-climb--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, Departure, radar contact. Climb and maintain 14,000 feet. Fly heading 090.",
+      "audio": "/audio/voice/dep-climb--n2.mp3",
+      "contentSha256": "afc233947129eefa804cc2e8dd87410b50fda0bb7b8b388d798878f3d339b3a1",
+      "configured": true
+    },
+    {
+      "id": "dep-dev-left--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, heading 060 approved. Advise clear of weather. Climb and maintain 14,000 feet.",
+      "audio": "/audio/voice/dep-dev-left--n2.mp3",
+      "contentSha256": "0b684ea65863aa76b5c045a746cdefd4989c151cd654bb857fbad5867fe7c8a3",
+      "configured": true
+    },
+    {
+      "id": "dep-dev-right--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, heading 120 approved. Advise clear of weather. Climb and maintain 14,000 feet.",
+      "audio": "/audio/voice/dep-dev-right--n2.mp3",
+      "contentSha256": "3ec4995b350c25c65b7a558b13aba557c971657e8e9b9c83ee5a4f9ab139ac5c",
+      "configured": true
+    },
+    {
+      "id": "ctr-checkin--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, Center, radar contact. Continue your deviation, climb and maintain 14,000 feet.",
+      "audio": "/audio/voice/ctr-checkin--n2.mp3",
+      "contentSha256": "cd07b0de8ea1f88973549a8797de7949c59e59fab4034cc4ade7435aa8629643",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-report--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Maintain 14,000 feet and advise intentions when able.",
+      "audio": "/audio/voice/ctr-ack-report--n2.mp3",
+      "contentSha256": "be662c6fc49efa937a0e435f467898d439eded8d67ba05d5c23f0bebe51c6580",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-return--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Port Aldane, maintain 14,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-return--n2.mp3",
+      "contentSha256": "d830eeecdf64e5a9a08ad614eaa2c420d4a2d5018aec6adbea8f1a0589128d69",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt1--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Kestry Field, maintain 14,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-alt1--n2.mp3",
+      "contentSha256": "9db98df209224981ef180ee6b23861c1873de2bbe90186fd445b71d02d206f18",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt2--n2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Isle Morrow, maintain 14,000 feet. Isle Morrow reports fog, visibility 800 meters.",
+      "audio": "/audio/voice/ctr-ack-alt2--n2.mp3",
+      "contentSha256": "b753453ee024858b582422b0d547e32eb3cc207f5d6f5d527521908895b32d8a",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt1--a2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Kestry Field, maintain 12,000 feet. Kestry Field reports fog, visibility 800 meters.",
+      "audio": "/audio/voice/ctr-ack-alt1--a2.mp3",
+      "contentSha256": "bd9018b2dceeb416269fa0df357c82392844f7476270a4481d9c6de4b9241cc9",
+      "configured": true
+    },
+    {
+      "id": "dsp-ack-alt1--a2",
+      "channel": "dispatch",
+      "text": "Dispatch copies your diversion to Kestry Field. Recommend you brief the cabin.",
+      "audio": "/audio/voice/dsp-ack-alt1--a2.mp3",
+      "contentSha256": "7f28bdfe78302e20a85379e10b15d5e423b59d87309c1dac313c68ca2b279051",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt2--a2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Isle Morrow, maintain 12,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-alt2--a2.mp3",
+      "contentSha256": "c4d0d4cdd5f87dd86d8d8c425e5008d7b01c6794dc5e1fc89ccf382703b02fec",
+      "configured": true
+    },
+    {
+      "id": "dsp-ack-alt2--a2",
+      "channel": "dispatch",
+      "text": "Dispatch copies your diversion to Isle Morrow. Ground handling is arranged. Recommend you brief the cabin.",
+      "audio": "/audio/voice/dsp-ack-alt2--a2.mp3",
+      "contentSha256": "60c3f55ea286a4d814515be6109acf51a4066eb520a38b09e9d86b7a9abd7729",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt1--n1-a2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Kestry Field, maintain 13,000 feet. Kestry Field reports fog, visibility 800 meters.",
+      "audio": "/audio/voice/ctr-ack-alt1--n1-a2.mp3",
+      "contentSha256": "bfe31b281e4688d0ef7d7950b855f115f979fb387f9368b5cd50a1330a17f3ab",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt2--n1-a2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Isle Morrow, maintain 13,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-alt2--n1-a2.mp3",
+      "contentSha256": "a13ded7f2dd4b7151f65b699263385f1ee6d1e25b783f8e7691f2af34891cf08",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt1--n2-a2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Kestry Field, maintain 14,000 feet. Kestry Field reports fog, visibility 800 meters.",
+      "audio": "/audio/voice/ctr-ack-alt1--n2-a2.mp3",
+      "contentSha256": "17969fee0481e28f7d97f61daca1dc420322216a0896339bcb7bd9a9d02f2ff4",
+      "configured": true
+    },
+    {
+      "id": "ctr-ack-alt2--n2-a2",
+      "channel": "atc",
+      "text": "Orvessa 214, roger. Cleared direct Isle Morrow, maintain 14,000 feet. Advise ready for descent.",
+      "audio": "/audio/voice/ctr-ack-alt2--n2-a2.mp3",
+      "contentSha256": "9100372e77a03e6e1b4decacdc125d7f213a9b2ab300c6aee264c364c3a77544",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-fault--g2",
+      "channel": "crew",
+      "text": "Caution, GEN 2 FAULT.",
+      "audio": "/audio/voice/fo-es3-fault--g2.mp3",
+      "contentSha256": "3fac4e0171ded19b85b2cdd715c7a4d746b5602caa2b55e31ce69db1099f3ab7",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-checklist--g2",
+      "channel": "crew",
+      "text": "GEN 2 FAULT checklist is open.",
+      "audio": "/audio/voice/fo-es3-checklist--g2.mp3",
+      "contentSha256": "a42234fce2df75330a77a511aa9443f8bd8e0e721d449f6997512f348859e58a",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-gen1-off--g2",
+      "channel": "crew",
+      "text": "GEN 2 is off.",
+      "audio": "/audio/voice/fo-es3-gen1-off--g2.mp3",
+      "contentSha256": "284d33418f0ed9fe1d0bf30e36df53a0b7461f85ec3fddfa72d0c438661c3192",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-bustie--g2",
+      "channel": "crew",
+      "text": "Bus tie is on. GEN 1 is powering both buses.",
+      "audio": "/audio/voice/fo-es3-bustie--g2.mp3",
+      "contentSha256": "472cd113b840464744add0afede8a5966c1dda8bb4cc139da5438cc094b71677",
+      "configured": true
+    },
+    {
+      "id": "fo-es3-complete--g2",
+      "channel": "crew",
+      "text": "GEN 2 FAULT checklist complete.",
+      "audio": "/audio/voice/fo-es3-complete--g2.mp3",
+      "contentSha256": "a050790da40d1272db7bf66e3edef21755b84798e961470c56dd646bb42d349e",
+      "configured": true
+    },
+    {
+      "id": "dsp-fault--g2",
+      "channel": "dispatch",
+      "text": "Orvessa 214, dispatch. We received your GEN 2 fault message. Options for each airport are on your kneeboard. Your decision, captain; we will support it.",
+      "audio": "/audio/voice/dsp-fault--g2.mp3",
+      "contentSha256": "66ba1a93e0ee981e2c32b65a42a3d61c8e86ff6677f0cd3b069d6705e7e60263",
+      "configured": true
+    },
+    {
+      "id": "tc-frequency",
+      "channel": "atc",
+      "text": "Velrune 638, contact the next Center sector on 128.35.",
+      "audio": "/audio/voice/tc-frequency.mp3",
+      "contentSha256": "8222a4f41308218c95a8e68ba8c48a1525332f7f42db283c3e0b76f3adc28fcf",
+      "configured": true
+    },
+    {
+      "id": "tc-center-contact",
+      "channel": "atc",
+      "text": "Velrune 638, radar contact, maintain 26,000 feet.",
+      "audio": "/audio/voice/tc-center-contact.mp3",
+      "contentSha256": "066d1522bc6411b272e74ba987d09d5c8ff309c6f42a667b62e579a3576119a2",
+      "configured": true
+    },
+    {
+      "id": "tc-crew-cruise",
+      "channel": "crew",
+      "text": "Level at 26,000. Autopilot engaged, heading mode, altitude hold.",
+      "audio": "/audio/voice/tc-crew-cruise.mp3",
+      "contentSha256": "49dacf011437b827afd701ad39b363c389c1162a55ab4e3ac0f9fd4f1d43bdcb",
+      "configured": true
+    },
+    {
+      "id": "tc-traffic",
+      "channel": "atc",
+      "text": "Velrune 638, turn heading 110 for traffic, maintain 26,000 feet.",
+      "audio": "/audio/voice/tc-traffic.mp3",
+      "contentSha256": "1d4e332aad450cb3991a6d00a94a38533db252b2624ca3ba3195e1989c720601",
+      "configured": true
+    },
+    {
+      "id": "tc-cabin-collapse",
+      "channel": "cabin",
+      "text": "Captain, a passenger has collapsed. We are at their seat.",
+      "audio": "/audio/voice/tc-cabin-collapse.mp3",
+      "contentSha256": "ec924a71ab7956148d549f4d0b569509e6e38770eb4350c4c53c03fb928f126e",
+      "configured": true
+    },
+    {
+      "id": "tc-cabin-recheck",
+      "channel": "cabin",
+      "text": "We have not given you the passenger condition yet. Do you want the current report?",
+      "audio": "/audio/voice/tc-cabin-recheck.mp3",
+      "contentSha256": "6b44476bcd89400b4a8362b3982fd8bcf192a6d727a85f0919bf816e7b936556",
+      "configured": true
+    },
+    {
+      "id": "tc-condition-clarify",
+      "channel": "cabin",
+      "text": "Please be specific about the passenger information you need.",
+      "audio": "/audio/voice/tc-condition-clarify.mp3",
+      "contentSha256": "d38b773dec5d9bdd3ba879843b2e2014e0779aecad44680c10b53833bb438620",
+      "configured": true
+    },
+    {
+      "id": "tc-attending-clarify",
+      "channel": "cabin",
+      "text": "Do you need to know who is helping the passenger? Please clarify.",
+      "audio": "/audio/voice/tc-attending-clarify.mp3",
+      "contentSha256": "487946fd536be5f1a871feec0261e44f1cd373a7b4053f2f786a45e787919c68",
+      "configured": true
+    },
+    {
+      "id": "tc-doctor-clarify",
+      "channel": "cabin",
+      "text": "Please clarify whether you need a report about a doctor on board.",
+      "audio": "/audio/voice/tc-doctor-clarify.mp3",
+      "contentSha256": "89400fb9ceb3db84c095281652292bc4d5a32ffbd533c1672a46a6d274ceed2e",
+      "configured": true
+    },
+    {
+      "id": "tc-condition-report",
+      "channel": "cabin",
+      "text": "The passenger is unresponsive but breathing. A cabin crew member is with them.",
+      "audio": "/audio/voice/tc-condition-report.mp3",
+      "contentSha256": "3e80ee7e70695ab5d148ecfaf18630366b0ee6c535fbb933771b4057a9078867",
+      "configured": true
+    },
+    {
+      "id": "tc-attending-report",
+      "channel": "cabin",
+      "text": "Two cabin crew are attending. We have asked for medical volunteers.",
+      "audio": "/audio/voice/tc-attending-report.mp3",
+      "contentSha256": "ae6f162347ef5cb9015085073032241446a75e1a4e2225604c0b7c839f3360c6",
+      "configured": true
+    },
+    {
+      "id": "tc-doctor-found",
+      "channel": "cabin",
+      "text": "A doctor has come forward and is assessing the passenger. We will relay their assessment.",
+      "audio": "/audio/voice/tc-doctor-found.mp3",
+      "contentSha256": "e7b7b31e5ae9a7b0c904a60608b6896630f28dcc0a6ad3e6ff58d0a30498f7a4",
+      "configured": true
+    },
+    {
+      "id": "tc-crew-traffic",
+      "channel": "crew",
+      "text": "Heading 110, level at 26,000.",
+      "audio": "/audio/voice/tc-crew-traffic.mp3",
+      "contentSha256": "21dc02c229e859fb9b8ebabbbf9bc9a011427b1d5616d6dc0f3d813ba349737d",
+      "configured": true
+    },
+    {
+      "id": "tc-doctor-assessment",
+      "channel": "cabin",
+      "text": "The doctor says the passenger needs hospital care within the hour. Their condition remains serious. Please tell us the plan.",
+      "audio": "/audio/voice/tc-doctor-assessment.mp3",
+      "contentSha256": "ac5ffe3d92f9d5b365d3d3a15a07d8357ecf84a2452b13bac135a81f22e81d0d",
+      "configured": true
+    },
+    {
+      "id": "tc-dispatch-connections",
+      "channel": "dispatch",
+      "text": "Tarnelow Bay has connecting passengers waiting. Let us know your plan so we can handle the connections.",
+      "audio": "/audio/voice/tc-dispatch-connections.mp3",
+      "contentSha256": "7d21627e601a5550d2a569a524cf934dde6b58813b55b701a8b7fe469fda9b6b",
+      "configured": true
+    },
+    {
+      "id": "tc-intentions",
+      "channel": "atc",
+      "text": "Velrune 638, advise your intentions.",
+      "audio": "/audio/voice/tc-intentions.mp3",
+      "contentSha256": "c4df1becd12b0f077fe822c7a63b5218162c2602daa907c7ef0b5fa8aedd77f4",
+      "configured": true
+    },
+    {
+      "id": "tc-atc-clear-large",
+      "channel": "atc",
+      "text": "Velrune 638, medical emergency acknowledged. Turn heading 070 for Selwick Reach, maintain 26,000 feet. No descent clearance yet.",
+      "audio": "/audio/voice/tc-atc-clear-large.mp3",
+      "contentSha256": "337bc2b2c0c50b2be9c5de25ce31114778e308add24ad855d4a793c837438173",
+      "configured": true
+    },
+    {
+      "id": "tc-dispatch-large",
+      "channel": "dispatch",
+      "text": "Please confirm Selwick Reach is your diversion airport and a hospital transfer is required.",
+      "audio": "/audio/voice/tc-dispatch-large.mp3",
+      "contentSha256": "d01b03e9d5ecb72cd52e4e23f4144eea96dd2c791912b007f083743b66af2da2",
+      "configured": true
+    },
+    {
+      "id": "tc-atc-clear-near",
+      "channel": "atc",
+      "text": "Velrune 638, medical emergency acknowledged. Turn heading 150 for Brindle Fen, maintain 26,000 feet. No descent clearance yet.",
+      "audio": "/audio/voice/tc-atc-clear-near.mp3",
+      "contentSha256": "3cd3c39537833ae6b87ea98a76fb065d4ffc9783a6eef9c8d710d07e6f3da472",
+      "configured": true
+    },
+    {
+      "id": "tc-dispatch-near",
+      "channel": "dispatch",
+      "text": "Please confirm Brindle Fen is your diversion airport and a hospital transfer is required.",
+      "audio": "/audio/voice/tc-dispatch-near.mp3",
+      "contentSha256": "1e24bfdaf52ce9ff13d782ba620d780798049f4286f181424796aeb5a58e6acb",
+      "configured": true
+    },
+    {
+      "id": "tc-dispatch-clarify-large",
+      "channel": "dispatch",
+      "text": "Please be specific: are you diverting to Selwick Reach for hospital care? We need the plan to coordinate the medical team.",
+      "audio": "/audio/voice/tc-dispatch-clarify-large.mp3",
+      "contentSha256": "4d59f8e657962766d7450630179b43acf560b3f53a49ed6f991d9e6f8dde8e2f",
+      "configured": true
+    },
+    {
+      "id": "tc-dispatch-clarify-near",
+      "channel": "dispatch",
+      "text": "Please be specific: are you diverting to Brindle Fen for hospital care? We need the plan to coordinate the medical team.",
+      "audio": "/audio/voice/tc-dispatch-clarify-near.mp3",
+      "contentSha256": "41523d5d19525776b1bf5967f2e46034b96f998c239b06c10785480f5588d862",
+      "configured": true
+    },
+    {
+      "id": "tc-continue-concern",
+      "channel": "dispatch",
+      "text": "Tarnelow Bay is 1 hour 40 minutes away. That exceeds the doctor's request for hospital care within the hour. Confirm continue or reconsider the diversion.",
+      "audio": "/audio/voice/tc-continue-concern.mp3",
+      "contentSha256": "164d78e938687fbd62d3be6219111c82ca3af3954b1c05b6fc5a9f8db5706dc7",
+      "configured": true
+    },
+    {
+      "id": "tc-atc-continue-ack",
+      "channel": "atc",
+      "text": "Velrune 638, continue as cleared, maintain 26,000 feet.",
+      "audio": "/audio/voice/tc-atc-continue-ack.mp3",
+      "contentSha256": "c3cedbef5469bbcce8838f4479e9e5e3f610807b4a3f783de04b3618fc12c18e",
+      "configured": true
+    },
+    {
+      "id": "tc-dispatch-ack",
+      "channel": "dispatch",
+      "text": "Medical diversion copied. We are coordinating the hospital transfer with the airport.",
+      "audio": "/audio/voice/tc-dispatch-ack.mp3",
+      "contentSha256": "2d1256ccad73f5add4b8118fa46c90434b881f2d252611bd5dc5afdc332882d1",
+      "configured": true
+    },
+    {
+      "id": "tc-crew-route",
+      "channel": "crew",
+      "text": "The selected route matches the diversion clearance.",
+      "audio": "/audio/voice/tc-crew-route.mp3",
+      "contentSha256": "da06e2ba538fb513fecbb7b7ee903c48f2b6bf3f759ec2ce21dd07b76932fabe",
+      "configured": true
+    },
+    {
+      "id": "tc-cabin-brief",
+      "channel": "cabin",
+      "text": "Captain, we are ready for your plan and next update.",
+      "audio": "/audio/voice/tc-cabin-brief.mp3",
+      "contentSha256": "cbc1b467787f6dcc57937ac99df6939e1cfc00f0f7260fb26a53c7080fd780b1",
+      "configured": true
+    },
+    {
+      "id": "tc-timeout-reminder",
+      "channel": "atc",
+      "text": "Velrune 638, still awaiting your intentions. Please advise.",
+      "audio": "/audio/voice/tc-timeout-reminder.mp3",
+      "contentSha256": "907567689aa0526085a086f165ac9bce2a8cf8b0db4a49d16cd5a379ef8664d7",
+      "configured": true
+    },
+    {
+      "id": "cc-twr-amend",
+      "channel": "atc",
+      "text": "Corvane 471, amended departure clearance: after takeoff turn left heading 240, climb 5,000 feet, QNH 1008.",
+      "audio": "/audio/voice/cc-twr-amend.mp3",
+      "contentSha256": "cb51b00de4175f8ad8a88550c9c34bf5ca2b68c9ab28d9465605925028f3369c",
+      "configured": true
+    },
+    {
+      "id": "cc-twr-readback-ok",
+      "channel": "atc",
+      "text": "Corvane 471, readback correct.",
+      "audio": "/audio/voice/cc-twr-readback-ok.mp3",
+      "contentSha256": "d1a914b46a2ee04426a7b1425b2e0d23fb53403ecf0eb152b9bd28220f083d54",
+      "configured": true
+    },
+    {
+      "id": "cc-twr-amend-correct",
+      "channel": "atc",
+      "text": "Corvane 471, negative. Heading 240, climb 5,000 feet, QNH 1008.",
+      "audio": "/audio/voice/cc-twr-amend-correct.mp3",
+      "contentSha256": "1d3897e00d9e3a7a26e7f0ec08478c0e6d55da7b922c01e2825ef75331a0cb05",
+      "configured": true
+    },
+    {
+      "id": "cc-twr-ready",
+      "channel": "atc",
+      "text": "Corvane 471, are you ready for an immediate departure?",
+      "audio": "/audio/voice/cc-twr-ready.mp3",
+      "contentSha256": "db031f631e76c9ef6b12a66ff36c85a3c6c7d5690553037f3b13128da8636c2f",
+      "configured": true
+    },
+    {
+      "id": "cc-twr-report",
+      "channel": "atc",
+      "text": "Corvane 471, report ready for departure.",
+      "audio": "/audio/voice/cc-twr-report.mp3",
+      "contentSha256": "69d30ff5d2ed0335b4e834cc3d26034fe0a2545716326a884ba2ea3fb8c0422c",
+      "configured": true
+    },
+    {
+      "id": "cc-twr-takeoff",
+      "channel": "atc",
+      "text": "Corvane 471, wind 270 at 6 knots, runway 27, cleared for takeoff.",
+      "audio": "/audio/voice/cc-twr-takeoff.mp3",
+      "contentSha256": "b817a964d2651db7bf55915fc0e95e65bb25841adacd20c79975736f87f9fc10",
+      "configured": true
+    },
+    {
+      "id": "cc-dep-contact",
+      "channel": "atc",
+      "text": "Corvane 471, Ashcombe Departure, radar contact. Continue climb to 5,000 feet.",
+      "audio": "/audio/voice/cc-dep-contact.mp3",
+      "contentSha256": "e5aa746daf425c0a158053c83455cd7ebdb4a23add93d5c2a2467413948ac7c4",
+      "configured": true
+    },
+    {
+      "id": "cc-crew-positive",
+      "channel": "crew",
+      "text": "Positive climb.",
+      "audio": "/audio/voice/cc-crew-positive.mp3",
+      "contentSha256": "f57187b330ce21a2c30097c922c360ee2faa33b9f054375cff6825ea514a55ce",
+      "configured": true
+    },
+    {
+      "id": "cc-crew-mode",
+      "channel": "crew",
+      "text": "The aircraft is not climbing. The autopilot is not engaged in climb mode.",
+      "audio": "/audio/voice/cc-crew-mode.mp3",
+      "contentSha256": "3a7eefb78529e0720698290374ce9385faa43945a66a6d64d12456ce469672c0",
+      "configured": true
+    },
+    {
+      "id": "cc-atc-417",
+      "channel": "atc",
+      "text": "Corvane 417, climb flight level 160.",
+      "audio": "/audio/voice/cc-atc-417.mp3",
+      "contentSha256": "083211c5871725606fe7247a2b998e47e3521077f0c0424dbae115e994ffde9c",
+      "configured": true
+    },
+    {
+      "id": "cc-atc-for-417",
+      "channel": "atc",
+      "text": "Corvane 471, that call was for Corvane 417.",
+      "audio": "/audio/voice/cc-atc-for-417.mp3",
+      "contentSha256": "94bc63d80dcd90cd31c729d87393ba03a15efcb383ba33d012f4fd7dcd858193",
+      "configured": true
+    },
+    {
+      "id": "cc-atc-negative",
+      "channel": "atc",
+      "text": "Corvane 471, negative. That clearance was for Corvane 417.",
+      "audio": "/audio/voice/cc-atc-negative.mp3",
+      "contentSha256": "a3c12d30846704d5c9955b7bab54b1deb600505c7a38403d1dcc933c78c32dc6",
+      "configured": true
+    },
+    {
+      "id": "cc-atc-real",
+      "channel": "atc",
+      "text": "Corvane 471, climb flight level 140.",
+      "audio": "/audio/voice/cc-atc-real.mp3",
+      "contentSha256": "21ffdc41ed314779ca1d93cefdbde5d60ef26cab8d4d350895aa9278db1ff95a",
+      "configured": true
+    },
+    {
+      "id": "cc-crew-transition",
+      "channel": "crew",
+      "text": "Passing the transition altitude, 6,000 feet.",
+      "audio": "/audio/voice/cc-crew-transition.mp3",
+      "contentSha256": "9c53dcaa5baa6d1b896f340668affed2cfe16572d6eb100a3c19ca9de242f919",
+      "configured": true
+    },
+    {
+      "id": "cc-atc-stop",
+      "channel": "atc",
+      "text": "Corvane 471, stop climb at flight level 110, traffic above.",
+      "audio": "/audio/voice/cc-atc-stop.mp3",
+      "contentSha256": "b585b4dcaf1f826dfac626269117201255e5455cb1aa3207678720fd0832131d",
+      "configured": true
+    },
+    {
+      "id": "cc-cabin-galley",
+      "channel": "cabin",
+      "text": "Captain, the galley water heater has failed. There is no smoke and nobody is hurt. Can you talk now?",
+      "audio": "/audio/voice/cc-cabin-galley.mp3",
+      "contentSha256": "a90a0a4b7a8b069002399b8518db25b41dd50886a2e2755b1289fd93a44a1ab6",
+      "configured": true
+    },
+    {
+      "id": "cc-cabin-ok",
+      "channel": "cabin",
+      "text": "Understood. We will wait for your call.",
+      "audio": "/audio/voice/cc-cabin-ok.mp3",
+      "contentSha256": "2ed541f83e086c8c8fd627ab96fbb3a7357f6bc8e0ef9778c8bc7f732b4370ef",
+      "configured": true
+    },
+    {
+      "id": "cc-cabin-callback",
+      "channel": "cabin",
+      "text": "Captain, the galley supervisor is ready to report when you are.",
+      "audio": "/audio/voice/cc-cabin-callback.mp3",
+      "contentSha256": "d1a8ab8bb498b6490fc1bbc3a9394c740d730dda3f15e1b9daf7c49c7087e7c8",
+      "configured": true
+    },
+    {
+      "id": "cc-cabin-report",
+      "channel": "cabin",
+      "text": "The water heater is switched off and the galley is safe. Nothing more is needed from you.",
+      "audio": "/audio/voice/cc-cabin-report.mp3",
+      "contentSha256": "9145e8f93a2a0d51f7b327a13a90a034745cd00316949469362b88dd02bfcf67",
+      "configured": true
+    },
+    {
+      "id": "cc-timeout-reminder",
+      "channel": "atc",
+      "text": "Corvane 471, confirm you are level at flight level 110.",
+      "audio": "/audio/voice/cc-timeout-reminder.mp3",
+      "contentSha256": "e0c659779f87ab4e97f1d7600f04e789ef4092144051faee14c852bd1cd75525",
+      "configured": true
+    }
+  ]
+}

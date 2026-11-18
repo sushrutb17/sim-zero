@@ -1,0 +1,91 @@
+// Synthetic 2-Event-Set scenario used by contract and engine tests.
+// All text is placeholder; it is not aviation content.
+export const miniScenario = {
+  id: 'mini',
+  title: 'Mini test scenario',
+  notice: 'Test notice: generic fictional aircraft, not real procedures.',
+  timeCompression: 6,
+  latenessGraceSec: 10,
+  initialAircraft: {
+    altitudeFt: 0,
+    headingDeg: 90,
+    speedKt: 0,
+    phase: 'holding',
+    ap: { engaged: false, hdg: 90, alt: 5000, lateral: 'hdg', vertical: 'hold' },
+    baroHpa: 1013,
+    lights: { landing: false, strobe: false },
+    elec: {
+      gen1: { switchOn: true, failed: false },
+      gen2: { switchOn: true, failed: false },
+      backupGenInop: true,
+      busTie: true,
+    },
+    comFreq: 'twr',
+    destination: 'dest',
+    stormBearingDeg: null,
+  },
+  briefing: [{ id: 'brief-1', title: 'Briefing', body: 'Placeholder briefing.' }],
+  airports: [
+    { id: 'dep', name: 'Departure Placeholder' },
+    { id: 'dest', name: 'Destination Placeholder' },
+  ],
+  checklists: [
+    { id: 'cl-a', title: 'Checklist A', items: [{ id: 'a1', text: 'Item one' }, { id: 'a2', text: 'Item two' }] },
+  ],
+  practice: { controlId: 'practice.toggle', prompt: 'Press the practice switch.' },
+  eventSets: [
+    {
+      id: 'es-a',
+      title: 'Set A',
+      phase: 'Phase A',
+      environment: 'Env A',
+      distracters: ['Distracter A'],
+      trigger: 'Trigger A',
+      technical: 'Tech A',
+      crm: 'CRM A',
+      objective: 'Objective A',
+      instructorNotes: 'Instructor-only note A',
+      startCues: [
+        { kind: 'message', id: 'msg-a1', channel: 'atc', text: 'Message A1', cards: [{ id: 'card-yes', text: 'Yes' }, { id: 'card-no', text: 'No' }] },
+      ],
+      rules: [
+        { id: 'r-a-time', instructorLabel: 'Send printout at 5 s', when: { kind: 'atSec', sec: 5 }, cues: [{ kind: 'printout', id: 'pr-a', title: 'Data', body: 'Placeholder data' }] },
+        { id: 'r-a-reply', instructorLabel: 'Ack reply', when: { kind: 'action', match: { kind: 'reply', messageId: 'msg-a1', cardId: 'card-yes' } }, cues: [{ kind: 'message', id: 'msg-a2', channel: 'atc', text: 'Acknowledged' }] },
+        { id: 'r-a-chain', instructorLabel: 'Chained 2 s after reply ack', when: { kind: 'ruleFired', ruleId: 'r-a-reply', afterSec: 2 }, cues: [{ kind: 'aircraft', patch: { ap: { alt: 6000 } } }] },
+      ],
+      endWhen: { kind: 'all', of: [{ kind: 'ruleFired', ruleId: 'r-a-reply' }, { kind: 'state', path: 'lights.landing', op: 'eq', value: true }] },
+      checks: [
+        { kind: 'required', id: 'chk-lights', when: { kind: 'state', path: 'lights.landing', op: 'eq', value: true }, withinSec: 30, category: 'procedures', reason: 'Landing lights were not switched on in time.' },
+        { kind: 'comm', id: 'chk-reply', messageId: 'msg-a1', quality: { 'card-yes': 'good', 'card-no': 'poor' }, category: 'crm', reason: 'The reply did not confirm the instruction.' },
+      ],
+      hints: ['Look at the light switches.'],
+    },
+    {
+      id: 'es-b',
+      title: 'Set B',
+      phase: 'Phase B',
+      environment: 'Env B',
+      distracters: [],
+      trigger: 'Trigger B',
+      technical: 'Tech B',
+      crm: 'CRM B',
+      objective: 'Objective B',
+      instructorNotes: 'Instructor-only note B',
+      startCues: [
+        { kind: 'alert', id: 'alert-b', level: 'caution', text: 'GEN 1 OFF' },
+        { kind: 'checklistAvailable', checklistId: 'cl-a' },
+      ],
+      rules: [
+        { id: 'r-b-fail', instructorLabel: 'Fail generator 1', physical: false, when: { kind: 'atSec', sec: 1 }, cues: [{ kind: 'aircraft', patch: { elec: { gen1: { switchOn: true, failed: true } } } }] },
+      ],
+      endWhen: { kind: 'action', match: { kind: 'control', controlId: 'route.destination', value: 'dep' } },
+      checks: [
+        { kind: 'errorTrap', id: 'chk-gen2', when: { kind: 'action', match: { kind: 'control', controlId: 'elec.gen2', value: false } }, trappedWhen: { kind: 'action', match: { kind: 'control', controlId: 'elec.gen2', value: true } }, trapWithinSec: 20, severity: 'major', category: 'systems', reason: 'The working generator was switched off.' },
+        { kind: 'safety', id: 'chk-continue', when: { kind: 'state', path: 'destination', op: 'eq', value: 'dest' }, category: 'crm', reason: 'Continued with reduced redundancy.' },
+      ],
+      hints: ['Check the electrical panel.'],
+    },
+  ],
+  endConditions: [{ reason: 'diversionSetUp', when: { kind: 'state', path: 'destination', op: 'eq', value: 'dep' } }],
+  softTimeout: { eventSetId: 'es-b', promptAtSec: 120, afterSec: 180, promptCue: { kind: 'message', id: 'msg-intentions', channel: 'atc', text: 'Say intentions' } },
+};
